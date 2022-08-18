@@ -1,0 +1,72 @@
+.App {
+  padding: 0;
+}
+
+.Header {
+  border-bottom: 1px solid #ddd;
+}
+
+.Content {
+  margin-top: 10px;
+}
+
+.Post {
+  align-items: start;
+  padding-top: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.Post:hover {
+  background-color: #f8f8f8;
+}
+
+.Post a {
+  color: #14c;
+  text-decoration: none;
+}
+
+.Post a:visited {
+  color: #14c;
+}
+
+.Sidebar {
+  width: 120px;
+  margin: 5px;
+  position: sticky;
+  top: 62px;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+
+.Sidebar .nav-item {
+  width: 100%;
+}
+
+.Sidebar .nav-item .active,
+.dropdown-item.active {
+  background-color: #def;
+}
+
+.Sidebar a,
+.dropdown-item,
+.dropdown-item.active {
+  color: #444;
+}
+
+.Sidebar a:hover {
+  background-color: #eee;
+  color: #888;
+}
+
+.More {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.dropdown-menu {
+  padding: 0;
+}
